@@ -1,0 +1,65 @@
+------PRINTING SOME USEFUL INFO---------
+----------------------------------------
+Real box volume = 4100.370363 bohrs^3 
+----------------------------------------
+Total # of valid grid points = 333298 
+ESP sum over full grid = 4.885143e+05 
+ESP sum over valid grid points = -4.081086e+04 
+Cutoff radius = 20.000000 
+Real space sum cells
+# of cells in 1 direction = 2
+# of cells in 2 direction = 2
+# of cells in 3 direction = 2
+Reciprocal space parameters
+Width of Gaussian (alpha) = 0.024674
+error flag = 0 (no error), eflag = 0
+
+Fitted charges ordered as within the cube file
+Charge 1 of type 1 = 0.059008
+Charge 2 of type 1 = 0.058895
+Charge 3 of type 1 = 0.059054
+Charge 4 of type 1 = 0.058984
+Charge 5 of type 6 = -0.297060
+Charge 6 of type 6 = 0.630891
+Charge 7 of type 6 = 0.185223
+Charge 8 of type 6 = -0.296787
+Charge 9 of type 6 = 0.630942
+Charge 10 of type 6 = 0.185220
+Charge 11 of type 6 = -0.297187
+Charge 12 of type 6 = 0.630910
+Charge 13 of type 6 = 0.185272
+Charge 14 of type 6 = -0.297075
+Charge 15 of type 6 = 0.630876
+Charge 16 of type 6 = 0.185281
+Charge 17 of type 7 = 0.187077
+Charge 18 of type 7 = -0.809425
+Charge 19 of type 7 = -0.284854
+Charge 20 of type 7 = 0.187047
+Charge 21 of type 7 = -0.809518
+Charge 22 of type 7 = -0.284971
+Charge 23 of type 7 = 0.187275
+Charge 24 of type 7 = -0.809575
+Charge 25 of type 7 = -0.284786
+Charge 26 of type 7 = 0.187166
+Charge 27 of type 7 = -0.809487
+Charge 28 of type 7 = -0.284814
+Charge 29 of type 8 = -0.390235
+Charge 30 of type 8 = -0.395842
+Charge 31 of type 8 = -0.390246
+Charge 32 of type 8 = -0.395871
+Charge 33 of type 8 = -0.390228
+Charge 34 of type 8 = -0.395874
+Charge 35 of type 8 = -0.390247
+Charge 36 of type 8 = -0.395936
+Charge 37 of type 30 = 1.218446
+Charge 38 of type 30 = 1.218488
+Charge 39 of type 30 = 1.218286
+Charge 40 of type 30 = 1.218406
+Charge 41 of type 17 = -0.103188
+Charge 42 of type 17 = -0.103179
+Charge 43 of type 17 = -0.103190
+Charge 44 of type 17 = -0.103175
+
+ESP Coulomb average = -1.442714e-15
+ESP QM average = 3.588853e-15
+Error of the potential = 0.877078

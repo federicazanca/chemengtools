@@ -1,0 +1,16 @@
+task              : GeometryOptimization
+xc_functional     : LDA
+
+cut_off_energy    : 600 eV
+grid_scale        : 2
+opt_strategy      : speed
+elec_dump_file    : NULL
+elec_energy_tol   : 0.000000001
+max_scf_cycles    : 500
+write_cell_structure : true
+geom_energy_tol   : 0.00001
+geom_disp_tol     : 0.0001
+geom_force_tol    : 0.001
+geom_stress_tol   : 0.01
+geom_method       : LBFGS
+geom_max_iter : 200

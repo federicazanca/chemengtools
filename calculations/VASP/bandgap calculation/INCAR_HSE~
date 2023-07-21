@@ -1,0 +1,50 @@
+system = MOF_HSE
+
+ISTART = 1
+#INIWAV = 1
+ICHARG = 0
+
+NCORE = 8    ## modify as necessary
+
+#ENCUT = 600
+EDIFF = 1E-5    ## 1E-5 when performing HSE calculation and 1E-6 for PBE
+GGA = PE
+
+LREAL = Auto
+PREC = Accurate
+ALGO = All
+#IALGO = 38
+## IALGO = 38 for prior SCF, ALGO = All for HSE
+
+ISPIN = 2    ## for metals with unpaired electrons
+NELMIN = 4
+NELM = 150
+ISMEAR = 0    ## refine with -5 if necessary
+SIGMA = 0.05
+
+## relaxation conditions, not needed
+#EDIFFG = -0.01
+#IBRION = 2
+#ISIF = 4
+#NSW = 1000
+
+## VDW corrections, not needed
+#VDW_S8 = 2.310
+#VDW_A1 = 0.383
+#VDW_A2 = 5.685
+#IVDW = 12
+
+## only turn on for main HSE calculation
+LHFCALC = .TRUE.
+HFSCREEN = 0.2
+
+LCHARG = .FALSE.
+LWAVE = .TRUE.
+LORBIT = 11
+NEDOS = 3000
+
+KSPACING = 0.5
+KGAMMA = .TRUE.
+MAGMOM =    ## need to be modified for each MOF
+
+

@@ -1,0 +1,35 @@
+###########################################################
+#                   OptaDOS example file 
+###########################################################
+
+# Choose the task to perform
+TASK               : dos
+
+# Recalculate the Fermi energy using the new DOS 
+# (discasrd the CASTEP efermi)
+EFERMI             : optados
+
+# Since we're recalculating the Fermi energy we do
+# a DOS calculation first.
+# Sample the DOS at 0.1 eV intervals
+DOS_SPACING        : 0.04
+
+###########################################################
+#            A D V A N C E D   K E Y W O R D S 
+###########################################################
+
+# The keywords below are all at their default value
+# They are presented here to indicate the internal
+# workings of OptaDOS and allow you to tweak the 
+# output
+
+# The broadening used, (also try linear, or fixed)
+BROADENING         : adaptive # Default
+
+# The broadening parameter, A, when using adaptive smearing, 
+# set by eye to be similar to the linear smearing method
+ADAPTIVE_SMEARING : 0.1      # Default
+
+# Set the Fermi energy to zero on the output plots 
+SET_EFERMI_ZERO : true       # Default
+
